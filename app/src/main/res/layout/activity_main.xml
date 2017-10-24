@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rozan.ktmmetro.MainActivity"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:text="राजस्व दस्तुर सम्बन्धि विवरण"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/btnPrasasakiya"
+        android:layout_alignStart="@+id/btnPrasasakiya"
+        android:layout_marginTop="1dp"
+        android:id="@+id/btnRajaswo"
+        android:width="300dp"
+        android:textSize="22sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentEnd="true"
+        android:layout_height="65dp" />
+
+
+    <Button
+        android:text="वडा कार्यालयहरुको विवरण"
+        android:layout_width="match_parent"
+        android:layout_marginTop="1dp"
+        android:id="@+id/btnWoda"
+        android:width="300dp"
+        android:textSize="22sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_below="@+id/btnRajaswo"
+        android:layout_alignStart="@+id/btnRajaswo"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="65dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/main_activity_pic"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="1dp"
+        android:scaleType="fitXY"
+        android:layout_height="300dp" />
+
+    <Button
+        android:text="कार्यालयको  विवरण"
+        android:layout_width="match_parent"
+        android:id="@+id/btnDetails"
+        android:width="300dp"
+        android:textSize="22sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/btnWoda"
+        android:layout_alignStart="@+id/btnWoda"
+        android:layout_height="65dp"
+        android:layout_marginTop="1dp"/>
+
+    <Button
+        android:text="प्रशासकीय कार्यविधि विवरण"
+        android:layout_width="match_parent"
+
+        android:id="@+id/btnPrasasakiya"
+        android:textSize="22sp"
+        android:width="300dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_height="65dp" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

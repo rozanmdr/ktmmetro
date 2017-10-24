@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rozan.ktmmetro.OffDetailsActivity"
+    tools:showIn="@layout/activity_off_details">
+    <LinearLayout
+        android:orientation="vertical"
+        android:textAlignment="viewStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <Button
+            android:text="नमोबुद्ध नगरपालिका"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnD1"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="कार्यरत कर्मचारीहरुको विवरण"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnD2"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="सदस्यहरुको विवरण"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnD3"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

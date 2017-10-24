@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rozan.ktmmetro.PrasasakiyeActivity"
+    tools:showIn="@layout/activity_prasasakiye">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:textAlignment="viewStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <Button
+            android:text="घर जग्गा नामसारी शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP1"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="मोही लगत कट्टा शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP2"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="घरकायम सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP3"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="छात्रबृत्ती शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP4"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+             />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="विपन्न विद्यार्थी छात्रबृत्ती शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP5"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="अपांग सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP6"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="अस्थाई बसोबास शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP7"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="स्थायी बसोबास शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP8"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="नागरिकता र प्रतिलिपि शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP9"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="अंगिकृत नागरीकता सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP10"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="आर्थिक अवस्था बलियो वा सम्पन्नता प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP11"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="विद्युत जडान शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP12"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="धारा जडान सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP13"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="जिवित रहेको शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP14"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="दुवै नाम गरेको ब्यक्ति एकै हो भन्ने शिफारीस/ जन्म मिति संसोधन सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP15"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="जग्गा मूल्यांकन सिफरिस प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP16"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="ब्यवसाय बन्द शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP17"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="ब्यवसाय सञ्चालन नभएको शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP18"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="कोर्ट फि मिनाहा शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP19"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="नावालक सम्वन्धी शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP20"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="चौपाय सम्वन्धी शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP21"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="ब्यवसाय दर्ता शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP22"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="उद्योग ठाउंसारी सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP23"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="विद्यालय ठाउंसारी शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP24"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="आन्तरिक बसाईसराई सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP25"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="विद्यालय कक्षा वृद्धि शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP26"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="पूर्व प्राथमिक विद्यालय खोल्ने शिफारिस / अनुमति"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP27"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="ब्यक्तिगत विवरण शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP28"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="जग्गा दर्ता शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP29"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="संरक्षक शिफारिस (ब्यक्तिगत)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP30"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="संरक्षक सिफारिस (संस्थागत)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP31"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="कित्ताकाट शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP32"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="नेपाल सरकारको नाममा बाटो कायम सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP33"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="जिवित संगको नाता प्रमाणित शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP34"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="मृतक संगको नाता प्रमाणित सर्जमिन सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP35"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="कोठा खोल्न रोहबरमा बस्ने"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP36"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="निःशुल्क वा शः शुल्क स्वास्थ्य उपचार शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP37"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="कार्यालयको माग अनुसार विवरण खुलाई पठाउनु पर्ने"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP38"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="संस्था दर्ता / नवीकरण"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP39"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="घर बाटो प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP40"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="चार किल्ला प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP41"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="जन्म मिति प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP42"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="विवाह प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP43"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="घर पाताल प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP44"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="फरक, फरक नाम, थर, जन्ममिति शिफारिस / प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP45"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="कागज/मञ्जुरीनामा प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP46"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="संरक्षक प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP47"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="हकवाला वा हकदार प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP48"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="अन्य प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP49"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="अविवाहित प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP50"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="नाम थर संसोधन शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP51"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="जग्गा रेखांकन/सम्वन्धी रोहबरमा बस्ने"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP52"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="जग्गा धनी पूर्जा हराएको शिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP53"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="पूर्जामा घर कायम गर्ने सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP54"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="अंग्रेजी सिफारिस तथा प्रमाणित"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP55"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="मिलापत्र कागज गराउने उजुरी दर्ता"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP56"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="घर जग्गा कर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP57"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="बहाल कर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP58"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="बिज्ञापन कर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP59"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="मालपोत वा भुमीकर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP60"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="शः सुल्क पार्किंग"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP61"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="जन्म दर्ता"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP62"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="मृत्यु दर्ता"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP63"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="बसाई सराई जाने"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP64"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="सम्बन्ध बिच्छेद"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP65"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="विवाह दर्ता"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP66"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="बैबाहिक अंगिकृत नागरीकता सिफारिश"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP67"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="नयां व्यवसाय दर्ता"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP68"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="व्यवसाय नविकरण"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP69"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="पालन पोषण सिफारिस"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnP70"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

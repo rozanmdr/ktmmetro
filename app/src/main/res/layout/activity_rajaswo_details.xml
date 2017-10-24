@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rozan.ktmmetro.RajaswoDetails">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Something"
+        android:id="@+id/txtTitle"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center" />
+    <WebView
+
+        android:id="@+id/rajaswo_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/txtTitle"
+
+
+        />
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

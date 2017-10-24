@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.rozan.ktmmetro.RajaswoActivity"
+    tools:showIn="@layout/activity_rajaswo">
+    <LinearLayout
+        android:orientation="vertical"
+        android:textAlignment="viewStart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <Button
+            android:text="एकीकृत सम्पत्तिकरको दर निर्धारण"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR1"
+            android:width="200dp"
+
+
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color" />
+
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="मालपोत रजिस्टेशन"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR2"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="वहाल कर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR3"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="व्यवसाय कर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR4"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="वनकस जडीवुटी"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR5"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="सवारी दर्ता तथा वार्षिक सवारी कर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR6"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="विज्ञापन तथा परिचय पाटी (नगरपालिकाले निषेध नगरेको क्षेत्रमा)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR7"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+
+        <Button
+            android:text="मनोरंजन कर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR8"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"/>
+        <View style="@style/Divider"/>
+        <Button
+            android:text="वहाल विटौरी शुल्क"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR9"
+            android:width="200dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="पार्किङ शुल्क"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR10"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="ट्रेकिङ  वन्जी जम्पीङ आदि शुल्क"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR11"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="सेवा शुल्क दस्तुर"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR12"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+        <View style="@style/Divider"/>
+        <Button
+            android:text="पर्यटन शुल्क"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnR13"
+            android:width="200dp"
+            android:textSize="@dimen/cast_libraries_material_featurehighlight_text_header_size"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:textColor="@color/cast_libraries_material_featurehighlight_outer_highlight_default_color"
+            />
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>

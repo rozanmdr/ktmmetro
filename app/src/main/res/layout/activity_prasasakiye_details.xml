@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.rozan.ktmmetro.PrasasakiyeDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Something"
+            android:id="@+id/txtTitle"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+
+
+            android:background="@color/colorPrimary"
+            android:textAlignment="center"
+            android:paddingTop="25dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="25dp"
+            android:layout_marginBottom="4dp"
+             />
+
+        <Button
+            android:id="@+id/expandableButton1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButton1"
+
+            android:layout_below="@+id/txtTitle"
+            android:paddingRight="10dp"
+            android:text="आवश्यक कागजात"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:layout_marginBottom="4dp"
+            android:paddingLeft="6dp"
+            android:textAlignment="viewStart"/>
+
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:layout_below="@+id/expandableButton1"
+            android:id="@+id/expandableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:ael_duration="200"
+            app:ael_expanded="false"
+
+            app:ael_orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtKagajat"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black" />
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+        <Button
+            android:id="@+id/expandableButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expandableLayout1"
+            android:background="@color/colorPrimaryDark"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButton2"
+            android:paddingRight="10dp"
+            android:textSize="22dp"
+            android:text="सेवा सुबिधा प्राप्त गर्ने प्रक्रिया"
+            android:textColor="#fff"
+            android:layout_marginBottom="4dp"
+            android:paddingLeft="6dp"
+            android:textAlignment="viewStart"/>
+
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/expandableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/expandableButton2"
+
+            app:ael_duration="200"
+            app:ael_expanded="false"
+            app:ael_orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:elevation="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPrakriya"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black" />
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+        <Button
+            android:id="@+id/expandableButton3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expandableLayout2"
+            android:background="@color/colorPrimaryDark"
+            android:textSize="22dp"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButton3"
+            android:paddingRight="10dp"
+            android:text="जिम्मेवार अधिकारी"
+            android:textColor="#fff"
+            android:layout_marginBottom="4dp"
+            android:paddingLeft="6dp"
+            android:textAlignment="viewStart"/>
+
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/expandableLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/expandableButton3"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:ael_duration="200"
+            app:ael_expanded="false"
+
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:paddingBottom="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtJimmewar"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@android:color/black" />
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+        <Button
+            android:id="@+id/expandableButton4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_below="@+id/expandableLayout3"
+            android:background="@color/colorPrimaryDark"
+            android:drawableRight="@android:drawable/arrow_down_float"
+            android:onClick="expandableButton4"
+            android:paddingRight="10dp"
+            android:paddingLeft="6dp"
+        android:textAlignment="viewStart"
+            android:text="लाग्ने समय"
+            android:textColor="#fff"
+            android:layout_marginBottom="4dp"
+            />
+
+        <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+            android:id="@+id/expandableLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/expandableButton4"
+
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:ael_duration="200"
+            app:ael_expanded="false"
+
+            app:ael_orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtSamaye"
+                android:padding="10dp"
+
+                android:textSize="20dp"
+                android:text="सोही दिन, सर्जमिनको हकमा बढीमा ३ दिन भित्र।\n."
+                android:textColor="@android:color/black" />
+        </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

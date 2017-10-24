@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rozan.ktmmetro.FullDetailsActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Something"
+        android:id="@+id/txtTitle"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:padding="20dp"
+
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:id="@+id/txtHead"
+        android:layout_below="@+id/txtTitle"
+        android:text="नमोबुद्ध नगरपालिका"
+        android:textSize="30sp"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:id="@+id/txtLocation"
+        android:layout_below="@+id/txtHead"
+
+        android:text="नगर कार्यपालिकाको कार्यालय\nभकुण्डेबेशी, काभ्रेपलाञ्चोक\nप्रदेश नं. ३, नेपाल\nफोन नं.  ०११–४०४०३१, ०११–४०४०६८\nफ्याक्स  ०११–४०४०३१\nइमेल: dms.kashikhandamun@gmail.com"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLocation"
+        android:id="@+id/txtUrl"
+        tools:style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="URL: www.namobuddhamun.gov.np"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@android:color/transparent"
+        android:paddingLeft="16dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUrl"
+        android:id="@+id/txtFb"
+        android:text="Facebook: www.facebook.com/namobuddhamun"
+        tools:style="@style/Widget.AppCompat.Button.Borderless"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        android:background="@android:color/transparent"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:paddingLeft="16dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFbPage"
+        android:layout_below="@+id/txtFb"
+        android:text="Facebook Page: www.facebook.com/hellonamobuddhamun"
+        tools:style="@style/Widget.AppCompat.Button.Borderless"
+        android:textAllCaps="false"
+        android:textAlignment="viewStart"
+        android:textSize="16sp"
+        android:textColor="@color/common_google_signin_btn_text_light_default"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:background="@android:color/transparent"
+        android:paddingLeft="16dp"/>
+</RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>
